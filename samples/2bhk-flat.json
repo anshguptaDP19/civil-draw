@@ -1,0 +1,961 @@
+{
+  "meta": {
+    "unit": "ft",
+    "scale": "1:50",
+    "north_angle_deg": 0,
+    "plot": {
+      "width": 34,
+      "height": 34
+    },
+    "style": "premium",
+    "story_count": 2
+  },
+  "floors": [
+    {
+      "floor_id": "ground",
+      "rooms": [
+        {
+          "id": "patio",
+          "name": "Patio",
+          "polygon": [
+            [
+              11,
+              0
+            ],
+            [
+              23,
+              0
+            ],
+            [
+              23,
+              4
+            ],
+            [
+              11,
+              4
+            ]
+          ],
+          "area_sqft": 48,
+          "width_ft": 12,
+          "depth_ft": 4,
+          "floor_finish": "concrete"
+        },
+        {
+          "id": "live",
+          "name": "Living Room",
+          "polygon": [
+            [
+              11,
+              4
+            ],
+            [
+              23,
+              4
+            ],
+            [
+              23,
+              17
+            ],
+            [
+              11,
+              17
+            ]
+          ],
+          "area_sqft": 156,
+          "width_ft": 12,
+          "depth_ft": 13,
+          "floor_finish": "wood"
+        },
+        {
+          "id": "refuel",
+          "name": "Kitchen",
+          "polygon": [
+            [
+              12,
+              17
+            ],
+            [
+              22,
+              17
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              12,
+              30
+            ]
+          ],
+          "area_sqft": 130,
+          "width_ft": 10,
+          "depth_ft": 13,
+          "floor_finish": "wood"
+        },
+        {
+          "id": "rest_l",
+          "name": "Bedroom",
+          "polygon": [
+            [
+              0,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              0,
+              15
+            ]
+          ],
+          "area_sqft": 121,
+          "width_ft": 11,
+          "depth_ft": 11,
+          "floor_finish": "carpet"
+        },
+        {
+          "id": "rest_r",
+          "name": "Bedroom",
+          "polygon": [
+            [
+              23,
+              4
+            ],
+            [
+              33,
+              4
+            ],
+            [
+              33,
+              17
+            ],
+            [
+              23,
+              17
+            ]
+          ],
+          "area_sqft": 130,
+          "width_ft": 10,
+          "depth_ft": 13,
+          "floor_finish": "carpet"
+        },
+        {
+          "id": "refresh_l",
+          "name": "Bathroom",
+          "polygon": [
+            [
+              0,
+              15
+            ],
+            [
+              7,
+              15
+            ],
+            [
+              7,
+              21
+            ],
+            [
+              0,
+              21
+            ]
+          ],
+          "area_sqft": 42,
+          "width_ft": 7,
+          "depth_ft": 6,
+          "floor_finish": "tile"
+        },
+        {
+          "id": "refresh_r",
+          "name": "Bathroom",
+          "polygon": [
+            [
+              26,
+              15
+            ],
+            [
+              33,
+              15
+            ],
+            [
+              33,
+              21
+            ],
+            [
+              26,
+              21
+            ]
+          ],
+          "area_sqft": 42,
+          "width_ft": 7,
+          "depth_ft": 6,
+          "floor_finish": "tile"
+        },
+        {
+          "id": "closet_l",
+          "name": "Closet",
+          "polygon": [
+            [
+              0,
+              21
+            ],
+            [
+              6,
+              21
+            ],
+            [
+              6,
+              29
+            ],
+            [
+              0,
+              29
+            ]
+          ],
+          "area_sqft": 48,
+          "width_ft": 6,
+          "depth_ft": 8,
+          "floor_finish": "carpet"
+        },
+        {
+          "id": "closet_r",
+          "name": "Closet",
+          "polygon": [
+            [
+              27,
+              21
+            ],
+            [
+              33,
+              21
+            ],
+            [
+              33,
+              30
+            ],
+            [
+              27,
+              30
+            ]
+          ],
+          "area_sqft": 54,
+          "width_ft": 6,
+          "depth_ft": 9,
+          "floor_finish": "carpet"
+        }
+      ],
+      "walls": [
+        {
+          "id": "w_ext_sw",
+          "start": [
+            0,
+            4
+          ],
+          "end": [
+            11,
+            4
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_se",
+          "start": [
+            23,
+            4
+          ],
+          "end": [
+            33,
+            4
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_w",
+          "start": [
+            0,
+            4
+          ],
+          "end": [
+            0,
+            29
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_e",
+          "start": [
+            33,
+            4
+          ],
+          "end": [
+            33,
+            30
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_nw",
+          "start": [
+            0,
+            29
+          ],
+          "end": [
+            6,
+            29
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_nc",
+          "start": [
+            6,
+            29
+          ],
+          "end": [
+            12,
+            29
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_nk",
+          "start": [
+            22,
+            30
+          ],
+          "end": [
+            27,
+            30
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_ne",
+          "start": [
+            27,
+            30
+          ],
+          "end": [
+            33,
+            30
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_ext_kn",
+          "start": [
+            12,
+            30
+          ],
+          "end": [
+            22,
+            30
+          ],
+          "thickness": 0.55,
+          "type": "external"
+        },
+        {
+          "id": "w_lr",
+          "start": [
+            11,
+            4
+          ],
+          "end": [
+            11,
+            15
+          ],
+          "thickness": 0.45,
+          "type": "internal"
+        },
+        {
+          "id": "w_rr",
+          "start": [
+            23,
+            4
+          ],
+          "end": [
+            23,
+            17
+          ],
+          "thickness": 0.45,
+          "type": "internal"
+        },
+        {
+          "id": "w_lbh",
+          "start": [
+            0,
+            15
+          ],
+          "end": [
+            11,
+            15
+          ],
+          "thickness": 0.4,
+          "type": "internal"
+        },
+        {
+          "id": "w_bath_l",
+          "start": [
+            7,
+            15
+          ],
+          "end": [
+            7,
+            21
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_bath_l2",
+          "start": [
+            0,
+            21
+          ],
+          "end": [
+            7,
+            21
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_closet_l",
+          "start": [
+            6,
+            21
+          ],
+          "end": [
+            6,
+            29
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_hall_l",
+          "start": [
+            7,
+            15
+          ],
+          "end": [
+            11,
+            17
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_pen",
+          "start": [
+            11,
+            17
+          ],
+          "end": [
+            14,
+            17
+          ],
+          "thickness": 0.4,
+          "type": "internal"
+        },
+        {
+          "id": "w_rb",
+          "start": [
+            26,
+            15
+          ],
+          "end": [
+            33,
+            15
+          ],
+          "thickness": 0.4,
+          "type": "internal"
+        },
+        {
+          "id": "w_bath_r",
+          "start": [
+            26,
+            15
+          ],
+          "end": [
+            26,
+            21
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_bath_r2",
+          "start": [
+            26,
+            21
+          ],
+          "end": [
+            33,
+            21
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_closet_r",
+          "start": [
+            27,
+            21
+          ],
+          "end": [
+            27,
+            30
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_hall_r",
+          "start": [
+            23,
+            17
+          ],
+          "end": [
+            26,
+            15
+          ],
+          "thickness": 0.35,
+          "type": "internal"
+        },
+        {
+          "id": "w_kit_w",
+          "start": [
+            12,
+            17
+          ],
+          "end": [
+            12,
+            30
+          ],
+          "thickness": 0.4,
+          "type": "internal"
+        },
+        {
+          "id": "w_kit_e",
+          "start": [
+            22,
+            17
+          ],
+          "end": [
+            22,
+            30
+          ],
+          "thickness": 0.4,
+          "type": "internal"
+        }
+      ],
+      "doors": [
+        {
+          "id": "d_lr",
+          "wall_id": "w_lr",
+          "position_on_wall": 5.5,
+          "width": 2.75,
+          "swing": "right",
+          "type": "single"
+        },
+        {
+          "id": "d_rr",
+          "wall_id": "w_rr",
+          "position_on_wall": 6.5,
+          "width": 2.75,
+          "swing": "left",
+          "type": "single"
+        },
+        {
+          "id": "d_bath_l",
+          "wall_id": "w_bath_l",
+          "position_on_wall": 3,
+          "width": 2.5,
+          "swing": "left",
+          "type": "single"
+        },
+        {
+          "id": "d_bath_l2",
+          "wall_id": "w_lbh",
+          "position_on_wall": 8.5,
+          "width": 2.5,
+          "swing": "right",
+          "type": "single"
+        },
+        {
+          "id": "d_bath_r",
+          "wall_id": "w_bath_r",
+          "position_on_wall": 3,
+          "width": 2.5,
+          "swing": "right",
+          "type": "single"
+        },
+        {
+          "id": "d_bath_r2",
+          "wall_id": "w_rb",
+          "position_on_wall": 4.5,
+          "width": 2.5,
+          "swing": "left",
+          "type": "single"
+        },
+        {
+          "id": "d_closet_l",
+          "wall_id": "w_bath_l2",
+          "position_on_wall": 4.5,
+          "width": 2.25,
+          "swing": "left",
+          "type": "single"
+        },
+        {
+          "id": "d_closet_r",
+          "wall_id": "w_bath_r2",
+          "position_on_wall": 4,
+          "width": 2.25,
+          "swing": "right",
+          "type": "single"
+        }
+      ],
+      "windows": [
+        {
+          "id": "win_lr",
+          "wall_id": "w_ext_sw",
+          "position_on_wall": 5.5,
+          "width": 4,
+          "sill_height": 3
+        },
+        {
+          "id": "win_rr",
+          "wall_id": "w_ext_se",
+          "position_on_wall": 5,
+          "width": 4,
+          "sill_height": 3
+        },
+        {
+          "id": "win_kn",
+          "wall_id": "w_ext_kn",
+          "position_on_wall": 5,
+          "width": 4,
+          "sill_height": 3.5
+        },
+        {
+          "id": "win_w",
+          "wall_id": "w_ext_w",
+          "position_on_wall": 10,
+          "width": 3.5,
+          "sill_height": 3
+        },
+        {
+          "id": "win_e",
+          "wall_id": "w_ext_e",
+          "position_on_wall": 10,
+          "width": 3.5,
+          "sill_height": 3
+        }
+      ],
+      "furniture": [
+        {
+          "id": "f_sofa",
+          "room_id": "live",
+          "kind": "sofa",
+          "x": 13.2,
+          "y": 9.5,
+          "width": 5.5,
+          "depth": 2.4
+        },
+        {
+          "id": "f_arm",
+          "room_id": "live",
+          "kind": "armchair",
+          "x": 19.5,
+          "y": 10.5,
+          "width": 2.2,
+          "depth": 2.2
+        },
+        {
+          "id": "f_table",
+          "room_id": "live",
+          "kind": "coffee_table",
+          "x": 14.8,
+          "y": 7.2,
+          "width": 2.8,
+          "depth": 1.6
+        },
+        {
+          "id": "f_tv",
+          "room_id": "live",
+          "kind": "tv_console",
+          "x": 20.5,
+          "y": 5.2,
+          "width": 2.2,
+          "depth": 0.7
+        },
+        {
+          "id": "f_chair1",
+          "room_id": "live",
+          "kind": "accent_chair",
+          "x": 12.2,
+          "y": 5,
+          "width": 1.6,
+          "depth": 1.6
+        },
+        {
+          "id": "f_chair2",
+          "room_id": "live",
+          "kind": "accent_chair",
+          "x": 14.2,
+          "y": 5,
+          "width": 1.6,
+          "depth": 1.6
+        },
+        {
+          "id": "f_rtable",
+          "room_id": "live",
+          "kind": "round_table",
+          "x": 13,
+          "y": 4.3,
+          "width": 1.4,
+          "depth": 1.4
+        },
+        {
+          "id": "f_cnt_n",
+          "room_id": "refuel",
+          "kind": "counter_l",
+          "x": 12.2,
+          "y": 28.2,
+          "width": 9.6,
+          "depth": 1.2
+        },
+        {
+          "id": "f_cnt_e",
+          "room_id": "refuel",
+          "kind": "counter_l",
+          "x": 20.8,
+          "y": 17.5,
+          "width": 1.2,
+          "depth": 10.5
+        },
+        {
+          "id": "f_island",
+          "room_id": "refuel",
+          "kind": "kitchen_island",
+          "x": 14.5,
+          "y": 21.5,
+          "width": 4.2,
+          "depth": 2.6
+        },
+        {
+          "id": "f_stool1",
+          "room_id": "refuel",
+          "kind": "bar_stool",
+          "x": 14.8,
+          "y": 19.8,
+          "width": 0.9,
+          "depth": 0.9
+        },
+        {
+          "id": "f_stool2",
+          "room_id": "refuel",
+          "kind": "bar_stool",
+          "x": 16.2,
+          "y": 19.8,
+          "width": 0.9,
+          "depth": 0.9
+        },
+        {
+          "id": "f_stool3",
+          "room_id": "refuel",
+          "kind": "bar_stool",
+          "x": 17.6,
+          "y": 19.8,
+          "width": 0.9,
+          "depth": 0.9
+        },
+        {
+          "id": "f_sink",
+          "room_id": "refuel",
+          "kind": "sink",
+          "x": 15,
+          "y": 28.3,
+          "width": 1.8,
+          "depth": 0.9
+        },
+        {
+          "id": "f_stove",
+          "room_id": "refuel",
+          "kind": "stove",
+          "x": 20,
+          "y": 24,
+          "width": 1.6,
+          "depth": 1.6
+        },
+        {
+          "id": "f_fridge",
+          "room_id": "refuel",
+          "kind": "fridge",
+          "x": 20.8,
+          "y": 17.8,
+          "width": 1.2,
+          "depth": 2.5
+        },
+        {
+          "id": "f_bed_l",
+          "room_id": "rest_l",
+          "kind": "bed",
+          "x": 2.5,
+          "y": 7,
+          "width": 5.5,
+          "depth": 6.5
+        },
+        {
+          "id": "f_ns_l1",
+          "room_id": "rest_l",
+          "kind": "nightstand",
+          "x": 1.2,
+          "y": 8.5,
+          "width": 1.2,
+          "depth": 1.2
+        },
+        {
+          "id": "f_ns_l2",
+          "room_id": "rest_l",
+          "kind": "nightstand",
+          "x": 8.2,
+          "y": 8.5,
+          "width": 1.2,
+          "depth": 1.2
+        },
+        {
+          "id": "f_tv_l",
+          "room_id": "rest_l",
+          "kind": "tv_console",
+          "x": 8.5,
+          "y": 5.5,
+          "width": 2,
+          "depth": 0.65
+        },
+        {
+          "id": "f_bed_r",
+          "room_id": "rest_r",
+          "kind": "bed",
+          "x": 25.5,
+          "y": 7,
+          "width": 5,
+          "depth": 6.5
+        },
+        {
+          "id": "f_ns_r1",
+          "room_id": "rest_r",
+          "kind": "nightstand",
+          "x": 24.2,
+          "y": 8.5,
+          "width": 1.2,
+          "depth": 1.2
+        },
+        {
+          "id": "f_ns_r2",
+          "room_id": "rest_r",
+          "kind": "nightstand",
+          "x": 30.5,
+          "y": 8.5,
+          "width": 1.2,
+          "depth": 1.2
+        },
+        {
+          "id": "f_tv_r",
+          "room_id": "rest_r",
+          "kind": "tv_console",
+          "x": 23.5,
+          "y": 5.5,
+          "width": 2,
+          "depth": 0.65
+        },
+        {
+          "id": "f_van_l",
+          "room_id": "refresh_l",
+          "kind": "vanity",
+          "x": 0.5,
+          "y": 18.5,
+          "width": 2.5,
+          "depth": 1.2
+        },
+        {
+          "id": "f_toi_l",
+          "room_id": "refresh_l",
+          "kind": "toilet",
+          "x": 4.5,
+          "y": 18.8,
+          "width": 1.2,
+          "depth": 1.8
+        },
+        {
+          "id": "f_tub_l",
+          "room_id": "refresh_l",
+          "kind": "tub",
+          "x": 0.5,
+          "y": 15.5,
+          "width": 2.5,
+          "depth": 2.5
+        },
+        {
+          "id": "f_van_r",
+          "room_id": "refresh_r",
+          "kind": "vanity",
+          "x": 26.5,
+          "y": 18.5,
+          "width": 4.5,
+          "depth": 1.2
+        },
+        {
+          "id": "f_toi_r",
+          "room_id": "refresh_r",
+          "kind": "toilet",
+          "x": 31,
+          "y": 18.8,
+          "width": 1.2,
+          "depth": 1.8
+        },
+        {
+          "id": "f_sh_r",
+          "room_id": "refresh_r",
+          "kind": "shower",
+          "x": 26.5,
+          "y": 15.5,
+          "width": 2.5,
+          "depth": 2.5
+        },
+        {
+          "id": "f_cl_l",
+          "room_id": "closet_l",
+          "kind": "closet_shelf",
+          "x": 0.3,
+          "y": 21.5,
+          "width": 5.4,
+          "depth": 7
+        },
+        {
+          "id": "f_cl_r",
+          "room_id": "closet_r",
+          "kind": "closet_shelf",
+          "x": 27.3,
+          "y": 21.5,
+          "width": 5.4,
+          "depth": 8
+        }
+      ]
+    }
+  ]
+}
